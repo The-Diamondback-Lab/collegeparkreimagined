@@ -4,11 +4,12 @@
   * Helper class that functions as a container.
   *
   * 1. Uses the max-width variable to set the maximum width. */
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,600i");
 .wrapper {
   height: 100%;
   width: 100%;
   /* 1 */
-  max-width: 95%; }
+  max-width: 85%; }
 
 /*
   * Helper class to truncate and add ellipsis to a string too long for it to
@@ -37,14 +38,14 @@ html {
   display: none; }
 
 html, body {
-  font-family: "";
   color: #000;
   margin: 0; }
 
 h1, h2, h3, h4, h5, h6, ol, ul {
-  font-weight: 700; }
+  font-family: "Nevis"; }
 
 p, a, li {
+  font-family: "Source Sans Pro";
   font-weight: 400; }
 
 a:hover, a:active, a:focus, button:hover, button:active, button:focus {
@@ -60,5 +61,140 @@ button {
   outline: none; }
 
 /* FONTS - FONTS.SASS */
+@font-face {
+  font-family: Nevis;
+  src: url(../../assets/fonts/nevis.ttf);
+  font-weight: bold; }
+
 /* BEGIN COMPONENT STYLES -- COMPONENTS-DIR.SASS */
+/* HEADER STYLES - HEADER.SASS */
+header {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #e31936;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  z-index: 5; }
+  header #header-wrapper {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding: 1.25em 0; }
+    header #header-wrapper #menu-btn {
+      background-color: transparent; }
+      header #header-wrapper #menu-btn svg {
+        stroke: #FFF; }
+
+/* MAIN STORY STYLES - MAINSTORY.SASS */
+#mainstory {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 4em 0; }
+  #mainstory #main-wrapper {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    #mainstory #main-wrapper #first-line {
+      color: #e31936;
+      font-size: 1.2em;
+      text-align: center !important;
+      text-transform: uppercase; }
+    #mainstory #main-wrapper p {
+      line-height: 1.5em; }
+      #mainstory #main-wrapper p #last-line {
+        font-family: "Source Sans Pro";
+        font-weight: 600; }
+
 /* BEGIN VIEW SPECIFIC STYLES -- VIEWS-DIR.SASS */
+/* LANDING PAGE STYLES - LANDING.SASS */
+#landing {
+  background-image: url("../../assets/img/umd.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  width: 100vw; }
+  #landing h3, #landing h1 {
+    text-transform: uppercase; }
+  #landing h3 {
+    font-size: 1.625em;
+    margin: 2.5em 0 0 0; }
+  #landing h1 {
+    font-size: 3.5em;
+    margin: 0; }
+    #landing h1 span {
+      color: #e31936; }
+  #landing #animated-chevron {
+    background-color: transparent;
+    bottom: 30px;
+    position: absolute; }
+    #landing #animated-chevron svg {
+      height: 35px;
+      stroke-width: 3;
+      width: 35px; }
