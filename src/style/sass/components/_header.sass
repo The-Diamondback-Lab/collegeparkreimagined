@@ -1,0 +1,18 @@
+/* HEADER STYLES - HEADER.SASS */
+
+header
+  +flex(row, center, space-between)
+  background-color: $dbk-red
+  position: absolute
+  top: 0
+  width: 100vw
+  z-index: 5
+
+  #header-wrapper
+    +flex(column, flex-end, flex-end)
+    padding: 1.25em 0
+
+    #menu-btn
+      background-color: transparent
+      svg
+        stroke: $white
