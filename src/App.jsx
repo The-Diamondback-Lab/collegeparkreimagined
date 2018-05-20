@@ -16,6 +16,8 @@ import Header from './components/Header.jsx';
 //view imports
 import Landing from './views/Landing.jsx';
 import MainStory from './views/MainStory.jsx';
+import PublicSafety from './views/PublicSafety.jsx';
+import Education from './views/Education.jsx';
 
 export default class App extends Component {
   render() {
@@ -25,6 +27,8 @@ export default class App extends Component {
           <Header />
           <Landing />
           <MainStory />
+          <PublicSafety />
+          <Education />
         </Analytics>
       </BrowserRouter>
     );

@@ -46,7 +46,8 @@ h1, h2, h3, h4, h5, h6, ol, ul {
 
 p, a, li {
   font-family: "Source Sans Pro";
-  font-weight: 400; }
+  font-weight: 400;
+  font-size: 20px; }
 
 a:hover, a:active, a:focus, button:hover, button:active, button:focus {
   cursor: pointer; }
@@ -145,11 +146,13 @@ header {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
-    #mainstory #main-wrapper #first-line {
+    #mainstory #main-wrapper .first-line {
       color: #e31936;
-      font-size: 1.2em;
+      font-size: 1.5em;
       text-align: center !important;
       text-transform: uppercase; }
+    #mainstory #main-wrapper .black {
+      color: #000000; }
     #mainstory #main-wrapper p {
       line-height: 1.5em; }
       #mainstory #main-wrapper p #last-line {
