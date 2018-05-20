@@ -2,7 +2,8 @@
 import React, { Component } from 'react';
 
 //react-router imports
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 //google analytics
 import Analytics from 'react-router-ga';
@@ -22,14 +23,14 @@ import Education from './views/Education.jsx';
 export default class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <Analytics id="" debug>
           <Landing />
           <MainStory />
           <PublicSafety />
           <Education />
         </Analytics>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }

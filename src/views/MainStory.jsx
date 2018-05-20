@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 
 const MainStory = () => {
   return (
-    <main id="mainstory">
-      <div className="wrapper" id="main-wrapper">
+    <main className="story" id="main">
+      <div className="wrapper">
         <img src = "cpovertime.gif" />
         <h3 className="first-line">
           Drafted in 2011, the University District Vision 2020 aims to shape

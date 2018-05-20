@@ -61,6 +61,24 @@ button {
   border: none;
   outline: none; }
 
+.story {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 4em 0; }
+
 /* FONTS - FONTS.SASS */
 @font-face {
   font-family: Nevis;
@@ -113,7 +131,7 @@ header {
         stroke: #FFF; }
 
 /* MAIN STORY STYLES - MAINSTORY.SASS */
-#mainstory {
+.story {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
@@ -130,7 +148,7 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 4em 0; }
-  #mainstory #main-wrapper {
+  .story .wrapper {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
@@ -147,16 +165,16 @@ header {
         -ms-flex-pack: center;
             justify-content: center;
     width: 70%; }
-    #mainstory #main-wrapper .first-line {
+    .story .wrapper .first-line {
       color: #e31936;
       font-size: 1.3em;
       text-align: center !important;
       text-transform: uppercase; }
-    #mainstory #main-wrapper .black {
+    .story .wrapper .black {
       color: #000000; }
-    #mainstory #main-wrapper p {
+    .story .wrapper p {
       line-height: 1.5em; }
-      #mainstory #main-wrapper p #last-line {
+      .story .wrapper p #last-line {
         font-family: "Source Sans Pro";
         font-weight: 600; }
 
