@@ -5,6 +5,7 @@ const MainStory = () => {
   return (
     <main id="mainstory">
       <div className="wrapper" id="main-wrapper">
+        <img src = "cpovertime.gif" />
         <h3 className="first-line">
           Drafted in 2011, the University District Vision 2020 aims to shape
           College Park into a top 20 college town by 2020.Two years before that
