@@ -145,7 +145,8 @@ header {
             align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center; }
+            justify-content: center;
+    width: 70%; }
     #mainstory #main-wrapper .first-line {
       color: #e31936;
       font-size: 1.5em;

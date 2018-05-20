@@ -24,7 +24,6 @@ export default class App extends Component {
     return (
       <BrowserRouter>
         <Analytics id="" debug>
-          <Header />
           <Landing />
           <MainStory />
           <PublicSafety />
