@@ -6,6 +6,40 @@ const MainStory = () => {
     <main className="story" id="main">
       <div className="wrapper">
         <img src = "cpovertime.gif" />
+        
+        <br/><div className="galleria">
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-1.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-2.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-3.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-4.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-5.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-6.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-7.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-8.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-9.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-10.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-11.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-12.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-13.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-14.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-15.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-16.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-17.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-18.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-19.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-20.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-21.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-22.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-23.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-24.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-25.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-26.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-27.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-28.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-29.jpg" data-title="title" data-description="description"/>
+          <img src="gallery_imgs/052018_2020ProjectArt_tsh-30.jpg" data-title="title" data-description="description"/>
+        </div><br/>
+
         <h3 className="first-line">
           Drafted in 2011, the University District Vision 2020 aims to shape
           College Park into a top 20 college town by 2020.Two years before that
