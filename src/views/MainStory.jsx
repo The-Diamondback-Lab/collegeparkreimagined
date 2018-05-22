@@ -6,7 +6,7 @@ import Navigation from '../components/Navigation.jsx';
 import Gallery from '../components/Gallery.jsx';
 
 //images
-import cpovertime from '../assets/img/cpovertime.gif';
+//import cpovertime from '../assets/img/cpovertime.gif';
 import diversity from '../assets/img/diversity.jpg';
 import committee from '../assets/img/committee.jpg';
 

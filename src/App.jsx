@@ -31,6 +31,7 @@ export default class App extends React.Component {
           <Education />
           <Transportation />
           <Sustainability />
+          <div id="footer" style={{ width: 'calc(100vw)', height: 'calc(10vh)', 'backgroundColor': '#e31936' }}></div>
         </Analytics>
       </BrowserRouter>
     );
