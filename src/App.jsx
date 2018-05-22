@@ -1,9 +1,8 @@
 //react imports
-import React, { Component } from 'react';
+import * as React from 'react';
 
 //react-router imports
 import { BrowserRouter } from 'react-router-dom';
-import { HashLink as Link } from 'react-router-hash-link';
 
 //google analytics
 import Analytics from 'react-router-ga';
@@ -11,24 +10,27 @@ import Analytics from 'react-router-ga';
 //style imports
 import './style/css/app.min.css';
 
-//components import
-import Header from './components/Header.jsx';
-
 //view imports
 import Landing from './views/Landing.jsx';
 import MainStory from './views/MainStory.jsx';
+import Development from './views/Development.jsx';
 import PublicSafety from './views/PublicSafety.jsx';
 import Education from './views/Education.jsx';
+import Transportation from './views/Transportation.jsx';
+import Sustainability from './views/Sustainability.jsx';
 
-export default class App extends Component {
+export default class App extends React.Component {
   render() {
     return (
       <BrowserRouter>
         <Analytics id="" debug>
           <Landing />
           <MainStory />
+          <Development />
           <PublicSafety />
           <Education />
+          <Transportation />
+          <Sustainability />
         </Analytics>
       </BrowserRouter>
     );

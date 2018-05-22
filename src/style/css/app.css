@@ -9,19 +9,12 @@
   height: 100%;
   width: 100%;
   /* 1 */
-  max-width: 85%; }
+  max-width: 75%; }
 
-/*
-  * Helper class to truncate and add ellipsis to a string too long for it to
-  * fit on a single line.
-  * 1. Prevent content from wrapping, forcing it on a single line.
-  * 2. Add ellipsis at the end of the line. */
-.ellipsis {
-  /* 1 */
-  white-space: nowrap;
-  /* 2 */
-  text-overflow: ellipsis;
-  overflow: hidden; }
+.first-line {
+  color: #000;
+  font-size: 1.125em;
+  margin: .5em 0; }
 
 /* BEGIN BASE STYLES -- BASE-DIR.SASS */
 /* COMMON STYLES -- COMMON.SASS */
@@ -46,8 +39,7 @@ h1, h2, h3, h4, h5, h6, ol, ul {
 
 p, a, li {
   font-family: "Source Sans Pro";
-  font-weight: 400;
-  font-size: 20px; }
+  font-weight: 400; }
 
 a:hover, a:active, a:focus, button:hover, button:active, button:focus {
   cursor: pointer; }
@@ -61,23 +53,45 @@ button {
   border: none;
   outline: none; }
 
-.story {
+section {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 4em 0; }
+  padding: 2em 0; }
+  section .wrapper h1, section .wrapper .list-heading {
+    color: #e31936; }
+  section .wrapper h1 {
+    font-size: 2em;
+    text-transform: uppercase; }
+  section .wrapper .list-heading {
+    margin: 2em 0 .625em;
+    text-transform: uppercase; }
+  section .wrapper .p-heading {
+    font-family: "Nevis";
+    margin: 2.5em 0 0; }
+  section .wrapper .descrip span {
+    font-weight: bold; }
+  section .wrapper ul li {
+    font-family: "Nevis";
+    margin: 1em 0 .25em; }
+    section .wrapper ul li ul li, section .wrapper ul li ul p.descrip {
+      font-family: "Source Sans Pro";
+      font-size: 1em;
+      margin: .5em 0; }
+  section .wrapper p {
+    margin-bottom: 0; }
 
 /* FONTS - FONTS.SASS */
 @font-face {
@@ -86,97 +100,36 @@ button {
   font-weight: bold; }
 
 /* BEGIN COMPONENT STYLES -- COMPONENTS-DIR.SASS */
-/* HEADER STYLES - HEADER.SASS */
-header {
+/* GALLERY STYLES - GALLERY.SASS */
+/* NAVIGATION STYLES - NAVIGATION.SASS */
+nav {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background-color: #e31936;
-  position: absolute;
-  top: 0;
-  width: 100vw;
-  z-index: 5; }
-  header #header-wrapper {
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
-    display: flex !important;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    padding: 1.25em 0; }
-    header #header-wrapper #menu-btn {
-      background-color: transparent; }
-      header #header-wrapper #menu-btn svg {
-        stroke: #FFF; }
-
-/* MAIN STORY STYLES - MAINSTORY.SASS */
-.story {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 4em 0; }
-  .story .wrapper {
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
-    display: flex !important;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    width: 70%; }
-    .story .wrapper .first-line {
-      color: #e31936;
-      font-size: 1.3em;
-      text-align: center !important;
-      text-transform: uppercase; }
-    .story .wrapper .black {
-      color: #000000; }
-    .story .wrapper p {
-      line-height: 1.5em; }
-      .story .wrapper p #last-line {
-        font-family: "Source Sans Pro";
-        font-weight: 600; }
+  background-color: #e31936;
+  padding: 1em;
+  position: fixed;
+  top: 300px;
+  left: 0;
+  width: 50px;
+  z-index: 5; }
+  nav a {
+    margin: .5em 0; }
+    nav a svg {
+      stroke: #FFF;
+      stroke-width: 2; }
 
 /* BEGIN VIEW SPECIFIC STYLES -- VIEWS-DIR.SASS */
 /* LANDING PAGE STYLES - LANDING.SASS */
@@ -220,3 +173,47 @@ header {
       height: 35px;
       stroke-width: 3;
       width: 35px; }
+
+/* MAIN STORY STYLES - MAINSTORY.SASS */
+#mainstory #mainstory-wrapper {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  #mainstory #mainstory-wrapper .black {
+    color: #000000; }
+  #mainstory #mainstory-wrapper p {
+    font-size: 1.05em;
+    line-height: 1.5em; }
+  #mainstory #mainstory-wrapper #gallery, #mainstory #mainstory-wrapper figure {
+    margin: 3em 0; }
+  #mainstory #mainstory-wrapper figure {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    #mainstory #mainstory-wrapper figure figcaption {
+      font-family: "Nevis";
+      margin: .5em 0 0 0; }
