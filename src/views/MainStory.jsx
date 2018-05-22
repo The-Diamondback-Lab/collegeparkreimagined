@@ -7,7 +7,8 @@ import Gallery from '../components/Gallery.jsx';
 
 //images
 import cpovertime from '../assets/img/cpovertime.gif';
-import diversity from '../assets/img/diversity.tif';
+import diversity from '../assets/img/diversity.jpg';
+import committee from '../assets/img/committee.jpg';
 
 export default class MainStory extends React.Component {
   render() {
@@ -74,10 +75,10 @@ export default class MainStory extends React.Component {
             committees physically bring together elected officials, university
             administrators, state delegates and other local stakeholders.
             <br />
-            {/* DOESNT DISPLAY */}
             <img
               src={diversity}
               alt="the board is comprised of all white men and one black woman"
+              style={ { width: '100%' } }
             />
             <br />
             The committees physically bring together local College Park
@@ -89,6 +90,17 @@ export default class MainStory extends React.Component {
             or consultant), two city council members, two university
             administrators, at least one county council member, and one state
             legislator.
+            <br /> <br />
+            <img
+              src={committee}
+              alt="Each committee contains at least one
+                  committee chair (such as the mayor, a state delegate, or a former
+                  mayor), one partnership board member (often an experienced lawmaker
+                  or consultant), two city council members, two university
+                  administrators, at least one county council member, and one state
+                  legislator."
+              style={ { width: '100%' } }
+            />
             <br /> <br />
             The committees do not implement changes; they lack individual
             budgets and the authority to distribute funds, levy taxes or
@@ -196,14 +208,6 @@ export default class MainStory extends React.Component {
             Parris Glendening, Maryland’s governor when the partnership was
             created, said the university “would not have survived” had it not
             embraced change.
-            <figure>
-              <img
-                src={cpovertime}
-                alt="college park over time"
-                id="cp-overtime-gif"
-              />
-              <figcaption>College Park over time</figcaption>
-            </figure>
             “They’re studying us and trying to figure out how we are doing it,”
             he said. “I think our little university becoming a national model is
             pretty exciting.”
