@@ -227,7 +227,10 @@ export default class MainStory extends React.Component {
             would be done in 2020,” said Fellows, who helped draft the original
             University District Vision 2020 document. “It was designed to
             address the long-standing challenges of the divide [between the city
-            and this university]. We’ve succeeded in that respect.”            <img
+            and this university]. We’ve succeeded in that respect.”
+            <br /><br />
+            Below, we examine more of the partnership’s achievements and goals as well as the criticisms.
+            <img
               src={committee}
               alt="Each committee contains at least one
                   committee chair (such as the mayor, a state delegate, or a former
