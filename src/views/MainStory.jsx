@@ -28,7 +28,7 @@ export default class MainStory extends React.Component {
             university.
             <br /> <br />
             “You don’t have to go five minutes down the road to see what’s been
-            forgotten,” the junior government and politics major said. “People
+            forgotten,” the rising senior government and politics major said. “People
             barely remember that there’s a high school down the street.”
             <br /> <br />
             But Nolasco, a current College Park resident, has recently noticed a
