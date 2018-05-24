@@ -79,6 +79,12 @@ const Transportation = () => {
         </p>
         <p className="descrip">
           Maryland National Capital Park and Planning conducted a study earlier this year to determine how the bus service in the area could be improved, Olson wrote in an email. When the results of the study are released, the city plans to use them to improve the transportation system as a whole.
+          <br /><br />
+          Meanwhile, as reported by The Diamondback earlier this month, Shuttle Bus Fees have increased by $6 per undergraduate student and $3 per graduate student since 2015, according to the Bursar Office’s website. Currently, full-time graduates and undergraduates each pay $100.50 per semester for the services.
+          <br /><br />
+          DOTS Executive Director David Allen said an about $700,000 deficit would force the department to adjust several bus routes, including eliminating the weekend bus to the College Park Metro station and decreasing bus circulation to and from Courtyards.
+          <br /><br />
+          “There’s no situation where someone would want to cut bus routes. But when faced with this situation, you have to make the best decision you can make,” Allen said.
         </p>
 
         <p className="p-heading">
