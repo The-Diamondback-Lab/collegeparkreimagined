@@ -129,4 +129,6 @@ $RECYCLE.BIN/
 *.lnk
 
 
+src/.sass-cache
+
 # End of https://www.gitignore.io/api/osx,node,adobe,macos,windows

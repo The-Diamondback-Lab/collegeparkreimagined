@@ -5,6 +5,7 @@ const autoprefixer = require('gulp-autoprefixer');
 const cssmin = require('gulp-cssmin');
 const concat = require('gulp-concat');
 const rename = require('gulp-rename');
+const sassLint = require('gulp-sass-lint');
 
 // error handling
 function handleError(error) {
@@ -13,10 +14,13 @@ function handleError(error) {
 }
 
 // compile sass
-gulp.task('sass', function() {
+gulp.task('sass', function () {
   return gulp
     .src('./src/style/sass/app.sass')
     .pipe(sass())
+    // .pipe(sassLint())
+    // .pipe(sassLint.format())
+    // .pipe(sassLint.failOnError())
     .pipe(autoprefixer())
     .on('error', handleError)
     .pipe(gulp.dest('./src/style/css/'))
@@ -26,13 +30,13 @@ gulp.task('sass', function() {
 });
 
 //watch
-gulp.task('watch', function() {
+gulp.task('watch', function () {
   gulp.watch('./src/style/sass/**/*').on('change', gulp.series('sass'));
 });
 
 gulp.task(
   'default',
-  gulp.parallel('sass', 'watch', function(done) {
+  gulp.parallel('sass', 'watch', function (done) {
     done();
   })
 );

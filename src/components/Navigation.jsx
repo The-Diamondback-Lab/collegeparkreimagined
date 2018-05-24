@@ -36,7 +36,7 @@ export default class Navigation extends React.Component {
       <nav>
         {NAVIGATION.map((item, i) => {
           return (
-            <NavLink key={i} smooth to={item.link} activeClassName="active">
+            <NavLink key={i} to={item.link} activeClassName="active">
               {item.comp}
             </NavLink>
           );

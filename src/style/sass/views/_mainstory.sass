@@ -9,8 +9,17 @@
       color: #000000
 
     p
+      +flex(column, center, center)
       font-size: 1.05em
       line-height: 1.5em
+
+      img
+        margin: 3em 0 0
+        width: 100% 
+
+    p:last-of-type
+      img
+        width: auto
 
     #gallery, figure
       margin: 3em 0

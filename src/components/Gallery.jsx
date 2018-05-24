@@ -5,6 +5,7 @@ import * as React from 'react';
 import * as gallery from '../config/gallery.json';
 
 export default class Gallery extends React.Component {
+
   render() {
     return (
       <div className="galleria" id="gallery">

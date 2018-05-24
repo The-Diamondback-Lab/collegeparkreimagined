@@ -78,7 +78,6 @@ export default class MainStory extends React.Component {
             <img
               src={diversity}
               alt="the board is comprised of all white men and one black woman"
-              style={ { width: '100%' } }
             />
             <br />
             The committees physically bring together local College Park
@@ -90,17 +89,6 @@ export default class MainStory extends React.Component {
             or consultant), two city council members, two university
             administrators, at least one county council member, and one state
             legislator.
-            <br /> <br />
-            <img
-              src={committee}
-              alt="Each committee contains at least one
-                  committee chair (such as the mayor, a state delegate, or a former
-                  mayor), one partnership board member (often an experienced lawmaker
-                  or consultant), two city council members, two university
-                  administrators, at least one county council member, and one state
-                  legislator."
-              style={ { width: '100%' } }
-            />
             <br /> <br />
             The committees do not implement changes; they lack individual
             budgets and the authority to distribute funds, levy taxes or
@@ -239,8 +227,17 @@ export default class MainStory extends React.Component {
             would be done in 2020,” said Fellows, who helped draft the original
             University District Vision 2020 document. “It was designed to
             address the long-standing challenges of the divide [between the city
-            and this university]. We’ve succeeded in that respect.”
+            and this university]. We’ve succeeded in that respect.”            <img
+              src={committee}
+              alt="Each committee contains at least one
+                  committee chair (such as the mayor, a state delegate, or a former
+                  mayor), one partnership board member (often an experienced lawmaker
+                  or consultant), two city council members, two university
+                  administrators, at least one county council member, and one state
+                  legislator."
+            />
           </p>
+          
         </div>
       </section>
     );
