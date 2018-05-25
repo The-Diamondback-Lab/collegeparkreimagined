@@ -5,7 +5,6 @@ const autoprefixer = require('gulp-autoprefixer');
 const cssmin = require('gulp-cssmin');
 const concat = require('gulp-concat');
 const rename = require('gulp-rename');
-const sassLint = require('gulp-sass-lint');
 
 // error handling
 function handleError(error) {
@@ -18,9 +17,6 @@ gulp.task('sass', function () {
   return gulp
     .src('./src/style/sass/app.sass')
     .pipe(sass())
-    // .pipe(sassLint())
-    // .pipe(sassLint.format())
-    // .pipe(sassLint.failOnError())
     .pipe(autoprefixer())
     .on('error', handleError)
     .pipe(gulp.dest('./src/style/css/'))

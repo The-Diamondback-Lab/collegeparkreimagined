@@ -6,6 +6,7 @@ import { NavHashLink as NavLink } from 'react-router-hash-link';
 
 //icons
 import * as Feather from 'react-feather';
+import Ionicon from 'react-ionicons';
 
 const NAVIGATION = [
   {
@@ -17,15 +18,15 @@ const NAVIGATION = [
     link: '#publicsafety',
   },
   {
-    comp: <Feather.Edit3 />,
+    comp: <Ionicon icon="md-school" fontSize='1.75em' color="white" />,
     link: '#education',
   },
   {
-    comp: <Feather.Truck />,
+    comp: <Ionicon icon="md-car" fontSize='1.75em' color="white" />,
     link: '#transportation',
   },
   {
-    comp: <Feather.Globe />,
+    comp: <Ionicon icon="md-globe" fontSize='1.75em' color="white" />,
     link: '#sustainability',
   },
 ];

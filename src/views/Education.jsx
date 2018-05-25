@@ -1,10 +1,19 @@
 //react imports
 import * as React from 'react';
 
+//components
+import LeadImage from '../components/LeadImage.jsx';
+
+//images
+import education from '../assets/img/sections/education.jpeg'
+
 const Education = () => {
   return (
     <section className="section" id="education">
       <div className="wrapper" id="education-wrapper">
+
+        <LeadImage image={education} text={'College Park Academy opened in 2013. Its first senior class will graduate in 2019. (Photo by Tom Hausman/The Diamondback)'} />
+
         <h1>EDUCATION</h1>
         <h3 className="first-line">
           When Wallace Loh became the University of Maryland’s president in 2010, he knew — in his words — “zip, zero” about K-12 education or revitalizing an area. But he quickly learned that the two went hand-in-hand.

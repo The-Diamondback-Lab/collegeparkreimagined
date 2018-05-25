@@ -2,7 +2,7 @@
 import * as React from 'react';
 
 //gallery data
-import * as gallery from '../config/gallery.json';
+import gallery from '../config/gallery.json';
 
 export default class Gallery extends React.Component {
 

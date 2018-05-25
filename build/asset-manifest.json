@@ -1,10 +1,16 @@
 {
-  "main.css": "static/css/main.1d0f05e1.css",
-  "main.css.map": "static/css/main.1d0f05e1.css.map",
-  "main.js": "static/js/main.ce789bc1.js",
-  "main.js.map": "static/js/main.ce789bc1.js.map",
+  "main.css": "static/css/main.4cabff68.css",
+  "main.css.map": "static/css/main.4cabff68.css.map",
+  "main.js": "static/js/main.a2cd053b.js",
+  "main.js.map": "static/js/main.a2cd053b.js.map",
   "static/media/committee.jpg": "static/media/committee.107589ae.jpg",
+  "static/media/dbk.svg": "static/media/dbk.007c7c8f.svg",
+  "static/media/development.jpeg": "static/media/development.e929ffbf.jpeg",
   "static/media/diversity.jpg": "static/media/diversity.410b4798.jpg",
+  "static/media/education.jpeg": "static/media/education.8a50c873.jpeg",
+  "static/media/landing.png": "static/media/landing.18638fc9.png",
   "static/media/nevis.ttf": "static/media/nevis.85e1e7f6.ttf",
-  "static/media/umd.png": "static/media/umd.570f2080.png"
+  "static/media/public-safety.jpeg": "static/media/public-safety.81f3ef57.jpeg",
+  "static/media/sustainability.jpeg": "static/media/sustainability.878b9b11.jpeg",
+  "static/media/transportation.jpeg": "static/media/transportation.bce14c41.jpeg"
 }

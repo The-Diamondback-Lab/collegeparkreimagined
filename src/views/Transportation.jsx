@@ -1,10 +1,19 @@
 //react
 import * as React from 'react';
 
+//components
+import LeadImage from '../components/LeadImage.jsx';
+
+//images
+import transportation from '../assets/img/sections/transportation.jpeg'
+
 const Transportation = () => {
   return (
     <section className="section" id="transportation">
       <div className="wrapper" id="transportation-wrapper">
+
+        <LeadImage image={transportation} text={'Nearly 4,000 riders have taken an mbike trip in College Park since the program launched in 2016. (Photo by Tom Hausman/The Diamondback)'} />
+
         <h1>Transportation</h1>
         <h3 className="first-line">
           Several major transportation projects will break ground in College Park in the coming months, including the long-anticipated Purple Line and Route 1’s redevelopment. Other smaller projects have been completed or have already begun, including the addition of more than 80 street lights across College Park and the implementation of a pilot bike-share program throughout the city and the University of Maryland’s campus.

@@ -77,7 +77,6 @@ section {
   font-weight: bold; }
 
 /* BEGIN COMPONENT STYLES -- COMPONENTS-DIR.SASS */
-/* GALLERY STYLES - GALLERY.SASS */
 /* NAVIGATION STYLES - NAVIGATION.SASS */
 nav {
   display: -webkit-box !important;
@@ -109,41 +108,112 @@ nav {
       stroke-width: 2; }
 
 /* SECTION STYLES - SECTION.SASS */
-.section .wrapper h1, .section .wrapper .list-heading {
-  color: #e31936; }
+.section .wrapper {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .section .wrapper h1, .section .wrapper h3, .section .wrapper p {
+    -ms-flex-item-align: start;
+        align-self: flex-start; }
+  .section .wrapper h1, .section .wrapper .list-heading {
+    color: #e31936; }
+  .section .wrapper h1 {
+    font-size: 2em;
+    text-transform: uppercase; }
+  .section .wrapper .list-heading {
+    margin: 2em 0 -1em;
+    text-transform: uppercase; }
+  .section .wrapper .p-heading {
+    font-family: "Nevis";
+    margin: 2em 0 0; }
+  .section .wrapper .descrip {
+    margin: 1em 0; }
+    .section .wrapper .descrip span {
+      font-weight: bold; }
+  .section .wrapper ul li {
+    font-family: "Nevis";
+    margin: 1em 0 .25em; }
+    .section .wrapper ul li ul li, .section .wrapper ul li ul p.descrip {
+      font-family: "Source Sans Pro";
+      font-size: 1em;
+      margin: .5em 0; }
+  .section .wrapper p {
+    margin-bottom: 0; }
 
-.section .wrapper h1 {
-  font-size: 2em;
-  text-transform: uppercase; }
+/* LEAD IMAGE STYLES - LEADIMAGE.SASS */
+.lead-image {
+  width: 100vw; }
+  .lead-image img {
+    width: 100%; }
+  .lead-image figcaption {
+    font-family: "Nevis";
+    text-align: center;
+    margin: 1em 0 0; }
 
-.section .wrapper .list-heading {
-  margin: 2em 0 -1em;
-  text-transform: uppercase; }
+/* FOOTER STYLES - FOOTER.SASS */
+footer {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #e31936; }
+  footer #footer-wrapper {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: .5em 0; }
+    footer #footer-wrapper a img {
+      width: 35%; }
+    footer #footer-wrapper #add-this #atstbx2 .at-share-btn-elements .at-share-btn .at-icon-wrapper, footer #footer-wrapper #add-this #atstbx2 .at-share-btn-elements .at-share-btn .at-icon {
+      height: 22.5px !important;
+      width: 22.5px !important; }
 
-.section .wrapper .p-heading {
-  font-family: "Nevis";
-  margin: 2em 0 0; }
-
-.section .wrapper .descrip {
-  margin: 1em 0; }
-  .section .wrapper .descrip span {
-    font-weight: bold; }
-
-.section .wrapper ul li {
-  font-family: "Nevis";
-  margin: 1em 0 .25em; }
-  .section .wrapper ul li ul li, .section .wrapper ul li ul p.descrip {
-    font-family: "Source Sans Pro";
-    font-size: 1em;
-    margin: .5em 0; }
-
-.section .wrapper p {
-  margin-bottom: 0; }
+/* GALLERY STYLES - GALLERY.SASS */
+.galleria {
+  background-color: #000;
+  height: 400px;
+  max-width: 700px;
+  width: 700px; }
 
 /* BEGIN VIEW SPECIFIC STYLES -- VIEWS-DIR.SASS */
 /* LANDING PAGE STYLES - LANDING.SASS */
 #landing {
-  background-image: url("../../assets/img/umd.png");
+  background-image: url("../../assets/img/landing.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -200,8 +270,9 @@ nav {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  #mainstory #mainstory-wrapper .black {
-    color: #000000; }
+  #mainstory #mainstory-wrapper .first-line {
+    color: #e31936;
+    font-size: 1.5em; }
   #mainstory #mainstory-wrapper p {
     display: -webkit-box !important;
     display: -ms-flexbox !important;

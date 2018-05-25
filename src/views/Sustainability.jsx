@@ -1,10 +1,19 @@
 //react
 import * as React from 'react';
 
+//components
+import LeadImage from '../components/LeadImage.jsx';
+
+//images
+import sustainability from '../assets/img/sections/sustainability.jpeg'
+
 const Sustainability = () => {
   return (
     <section className="section" id="sustainability">
       <div className="wrapper" id="sustainability-wrapper">
+
+        <LeadImage image={sustainability} text={'Solar panels were installed on Regents Drive Garage in 2017. (Photo courtesy of Andrew Muir)'} />
+
         <h1>Sustainability</h1>
         <h3 className="first-line">
           College Park and the University of Maryland have several sustainable initiatives in the works, from adding solar panels to city buildings to getting every school associated with the city involved with “green projects.

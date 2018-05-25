@@ -4,11 +4,11 @@ import * as React from 'react';
 //react-router imports
 import { BrowserRouter } from 'react-router-dom';
 
-//google analytics
-import Analytics from 'react-router-ga';
-
 //style imports
 import './style/css/app.min.css';
+
+//components
+import Footer from './components/Footer.jsx';
 
 //view imports
 import Landing from './views/Landing.jsx';
@@ -23,7 +23,7 @@ export default class App extends React.Component {
   render() {
     return (
       <BrowserRouter>
-        <Analytics id="" debug>
+        <React.Fragment>
           <Landing />
           <MainStory />
           <Development />
@@ -31,8 +31,8 @@ export default class App extends React.Component {
           <Education />
           <Transportation />
           <Sustainability />
-          <div id="footer" style={{ width: 'calc(100vw)', height: 'calc(10vh)', 'backgroundColor': '#e31936' }}></div>
-        </Analytics>
+          <Footer />
+        </React.Fragment>
       </BrowserRouter>
     );
   }

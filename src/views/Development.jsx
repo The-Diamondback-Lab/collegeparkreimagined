@@ -1,10 +1,19 @@
 //react imports
 import * as React from 'react';
 
+//components
+import LeadImage from '../components/LeadImage.jsx';
+
+//images
+import development from '../assets/img/sections/development.jpeg'
+
 const Development = () => {
   return (
     <section className="section" id="housing-and-development">
       <div className="wrapper" id="housingdevwrapper">
+
+        <LeadImage image={development} text={'Vigilante Coffee opened on Baltimore Avenue in March. It replaces #1 Liquors.'} />
+
         <h1>Development</h1>
         <h3 className="first-line">
           Living and working in the same area: that’s the crux of the partnership’s housing and redevelopment strategy. By creating more “vibrant” amenities and offering forgivable loans to attract city and university employees to live in the area, the partnership seeks to create a sustainable, year-long economy. Leaders say the strategy will also reduce traffic and carbon emissions.

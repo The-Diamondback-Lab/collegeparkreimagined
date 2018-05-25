@@ -1,10 +1,19 @@
 //react imports
 import * as React from 'react';
 
+//components
+import LeadImage from '../components/LeadImage.jsx';
+
+//images
+import safety from '../assets/img/sections/public-safety.jpeg'
+
 const PublicSafety = () => {
   return (
     <section className="section" id="publicsafety">
       <div className="wrapper" id="publicsafety-wrapper">
+
+        <LeadImage image={safety} text={'A biker roams the streets of College Park. (Photo by Tom Hausman/The Diamondback)'} />
+
         <h1>PUBLIC SAFETY</h1>
         <h3 className="first-line">
           In an effort to connect the university and the city, the committee aims for College Park to not only be ranked among the safest college towns in the country, but also be perceived as such.
