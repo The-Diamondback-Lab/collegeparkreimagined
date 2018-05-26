@@ -212,7 +212,8 @@ export default class MainStory extends React.Component {
             and this university]. We’ve succeeded in that respect.”
             <br /><br />
             Below, we examine more of the partnership’s achievements and goals as well as the criticisms.
-            <img
+          </p>
+          <img
               src={committee}
               alt="Each committee contains at least one
                   committee chair (such as the mayor, a state delegate, or a former
@@ -221,7 +222,6 @@ export default class MainStory extends React.Component {
                   administrators, at least one county council member, and one state
                   legislator."
             />
-          </p>
           
         </div>
       </section>
