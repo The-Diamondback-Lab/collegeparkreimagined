@@ -62,7 +62,7 @@ export default class MainStory extends React.Component {
             preparatory middle and high school that allows students to
             accumulate up to 25 credits for this university; the opening of
             MilkBoy ArtHouse, a joint restaurant and live music venue; the
-            expansion of University Police jurisdiction; the certification of
+            expansion of University Police's jurisdiction; the certification of
             College Park as a Maryland Sustainable Community; and the
             implementation of new bike-sharing stations.
             <br /> <br />
@@ -79,17 +79,7 @@ export default class MainStory extends React.Component {
               src={diversity}
               alt="the board is comprised of all white men and one black woman"
             />
-            <br />
-            The committees physically bring together local College Park
-            stakeholders -- including elected officials, university
-            administrators and state delegates -- who otherwise might not
-            congregate voluntarily. Each committee contains at least one
-            committee chair (such as the mayor, a state delegate, or a former
-            mayor), one partnership board member (often an experienced lawmaker
-            or consultant), two city council members, two university
-            administrators, at least one county council member, and one state
-            legislator.
-            <br /> <br />
+            <br /><br />
             The committees do not implement changes; they lack individual
             budgets and the authority to distribute funds, levy taxes or
             allocate resources as desired. Rather, committees join forces to
@@ -137,14 +127,9 @@ export default class MainStory extends React.Component {
             solve the problem right now, but you think about its implication 20
             to 30 years down the line.”
             <br /> <br />
-            Critics of the partnership pose that the lack of student and
-            permanent resident presence on the board and committees has excluded
-            those voices from the conversation, often to their detriment. Twice
-            in the past year, The Diamondback’s editorial board has taken the
-            city council to task for its City Hall expansion plans, which would
-            “take a chunk out of Route 1.” At a public hearing last fall,
-            several residents spoke out against those expansion plans, with one
-            deeming them a “vanity project.”
+            Critics of the partnership have posed that the focus on the future and the lack of student and permanent resident presence on the board and committees has excluded those voices from the conversation, often to their detriment.
+            <br/><br/>
+            Twice in the past year, The Diamondback’s editorial board has taken the city council to task for its City Hall expansion plans, which would “take a chunk out of Route 1.” At a public hearing last fall, several residents spoke out against those expansion plans, with one deeming them a “vanity project.”
             <br /> <br />
             Nolasco said Hyattsville, home to a newly constructed arts district,
             “used to be very black and brown” but has recently become less
@@ -174,7 +159,7 @@ export default class MainStory extends React.Component {
             to avoid displacement and gentrification in ways it typically
             happens.”
             <br /> <br />
-            Carlo Colella, this university’s administration and finance vice
+            And Carlo Colella, this university’s administration and finance vice
             president, said the partnership’s leadership actively works to
             safeguard the interests of students and current residents. “We’re
             bringing about amenities that are keeping residents here who would
@@ -193,12 +178,9 @@ export default class MainStory extends React.Component {
             full-time employees.”
             <br />
             <br />
-            Parris Glendening, Maryland’s governor when the partnership was
-            created, said the university “would not have survived” had it not
-            embraced change.
-            “They’re studying us and trying to figure out how we are doing it,”
-            he said. “I think our little university becoming a national model is
-            pretty exciting.”
+            Parris Glendening, Maryland’s governor when the partnership was created, said the university “would not have survived” had it not embraced change. He noted that elected officials from Sacramento had toured the College Park area in April, hoping to examine the region’s development.
+            <br/><br/>
+            “They’re studying us and trying to figure out how we are doing it,” he said. “I think our little university becoming a national model is pretty exciting.”
             <br />
             <br />
             But meanwhile, some longtime residents have expressed fear that

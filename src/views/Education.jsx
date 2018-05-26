@@ -91,11 +91,11 @@ const Education = () => {
           K-12 schools survey completed
         </p>
         <p className="descrip">
-          The survey examined what local parents want out of Prince George’s County Public Schools, Olson said. The results — which are still being compiled — will be used to help inform lawmakers and policymakers, he said.
+          The survey examined what local parents want out of Prince George’s County Public Schools. The results — which are still being compiled — will be used to help inform lawmakers and policymakers, Olson said.
           <br /> <br />
           Loh said a systemic transformation of the local school system will “take years and years” to accomplish, but additions like College Park Academy are “a reason why we’re seeing an uptick in faculty and staff living here.”
           <br /><br />
-          The partnership will implement strategies based on the survey and present data to lawmakers, according to the 2018 work plan. Leaders will also “catalog, package and promote local College Park schools” by creating a brochure and a “one-stop shop” webpage for interested parents.
+          In addition to presenting data to lawmakers, leaders will also “catalog, package and promote local College Park schools” by creating a brochure and a “one-stop shop” webpage for interested parents, according to the CPCUP website.
         </p>
 
         <h3 className="list-heading">

@@ -1,7 +1,16 @@
 /* GALLERY STYLES - GALLERY.SASS */
 
-.galleria
-  background-color: $black
-  height: 400px
-  max-width: 700px
-  width: 700px
+#gallery
+  +flex(column, center, center)
+  margin: 3em 0
+  
+
+  .galleria
+    +flex(column, center, center)
+    background-color: $black
+    height: 400px
+    width: 100%
+
+  figcaption
+    font-family: $font-heading
+    margin: .5em 0 0 0

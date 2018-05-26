@@ -23,21 +23,16 @@ const Development = () => {
           <br /><br />
           “This is one of the hottest areas of development,” university President Wallace Loh said.
           <br /><br />
-          But critics have argued that the focus on attracting future residents and businesses has detracted from the experience of current residents and students. Some have also posed that the new amenities make the city more congested, expensive and urbanized than it should be.
+          But critics have argued that the focus on attracting new residents and businesses has detracted from the experience of current residents and students. Some have also posed that the new amenities make the city more expensive and urbanized than a true college town should be.
         </p>
 
         <h3 className="list-heading">Accomplisments To Date</h3>
 
         <p className="p-heading">
-          The Hotel at the University of Maryland (OPENED sept. 2017)
+          The Hotel at the University of Maryland
         </p>
         <p className="descrip">
-          The $180 million project, which opened in September 2017, functions as
-          a mixed-used building. The city’s only four-star hotel, it offers
-          conference facilities, a bar and “high end” restaurants, such as Old
-          Maryland Grill and Kapnos Taverna, on the ground floor. The Hotel
-          created more than 400 permanent jobs, which Ulman said would help
-          increase the city’s tax base.
+          The $180 million project, which opened in September 2017, functions as a mixed-use building. The city’s only four-star hotel, it offers conference facilities, a bar and “high-end” restaurants such as Old Maryland Grill and Kapnos Taverna on the ground floor.
           <br /><br />
           Company offices housed in the Diamondback Garage behind The Hotel will
           include Capital One, Immuta, BlueVoyant and a shared space with the Do
@@ -49,7 +44,7 @@ const Development = () => {
           Its opening also added 850 garage parking spots to the city.
         </p>
 
-        <p className="p-heading">Vigilante Coffee (OPENED March 2018)</p>
+        <p className="p-heading">Vigilante Coffee</p>
         <p className="descrip">
           Vigilante Coffee opened in March 2018, replacing #1 Liquors. Ulman
           described the old space as “dumpy looking,” and said this new addition
@@ -63,20 +58,20 @@ const Development = () => {
           days of the week.
         </p>
 
-        <p className="p-heading">MilkBoy ArtHouse (OPENED May 2017)</p>
+        <p className="p-heading">MilkBoy ArtHouse</p>
         <p className="descrip">
-          Former College Park Mayor Andy Fellows described MilkBoy ArtHouse as a
-          “physical manifestation of the new.” The joint restaurant and
-          performing arts venue opened in May 2017.
+          Former College Park Mayor Andrew Fellows described MilkBoy ArtHouse as a “physical manifestation of the new.” The joint restaurant and performing arts venue opened in May 2017 and allows some student groups to perform and hold pay-to-enter events.
           <br /><br />
-          Olson said a grant award helped fund the “facade improvements,” and
-          the partnership worked with the university’s Clarice Smith Performing
-          Arts Center to obtain a tax credit for MilkBoy programming.
+          Eric Olson, the partnership’s executive director, said a grant award helped fund the “facade improvements.” The partnership worked with the university’s Clarice Smith Performing Arts Center to obtain a tax credit for donors who support MilkBoy programming.
+          <br /><br />
+          John Hedrick, a rising senior, said while Milkboy Arthouse stands out in College Park as a “really cool” venue that’s unique to the area, not all undergraduate students can take full advantage of it.
+          <br /><br />
+          “Events can be kind of expensive,” the psychology major said. “And, I’m only 20, so I’m not into the bar scene yet.”
         </p>
 
         <p className="p-heading">
           Homeownership Program through the Maryland Department of Housing and
-          Community Development’s Community Legacy Grant (began 2015)
+          Community Development’s Community Legacy Grant
         </p>
         <p className="descrip">
           The program awards $15,000 in deferred-payment, forgivable loans for
@@ -93,15 +88,11 @@ const Development = () => {
           it,” said homebuyer Laura McGrath Hood, an employee of this
           university.
           <br /><br />
-          However, some potential residents have decided against buying homes
-          due to other factors such as schooling.
-          <br /><br />
-          Loh said about four percent of faculty and staff lived in College Park
-          when he arrived at this university.
+          Loh said about four percent of faculty and staff lived in College Park when he arrived at this university, and he expects the area to attract as many as 7,000 more residents, both affiliated and non-affiliated with the university, over the next few years.
         </p>
 
         <p className="p-heading">
-          Midtown Revitalization study (THROUGHOUT spring/summer of 2017)
+          Midtown Revitalization study
         </p>
         <p className="descrip">
           A redevelopment study was completed last year to help inform
@@ -109,9 +100,7 @@ const Development = () => {
           area, Olson said.
           <br /><br />
           The study found that there is a high concentration of fast dining and
-          convenience stores. Development should focus on “specialty retail
-          products and creating an authentic sense of place,” according to the
-          report.
+          convenience stores. Development should instead focus on “specialty retail products and creating an authentic sense of place,” according to the report.
           <br /><br />
           <span>Major student housing/mixed use projects</span>
           <br /><br />
@@ -120,7 +109,7 @@ const Development = () => {
           other student housing complexes.
           <br /><br />
           The Enclave will begin filling its empty retail space in the coming
-          months with a new sushi restaurant named LaTAO . Ryan Chelton, College
+          months with a new sushi restaurant named LaTAO. Ryan Chelton, College
           Park’s economic development coordinator, said in February that he
           hopes the opening of LaTAO will cause a “chain reaction” and “draw in
           more retail.”
@@ -197,11 +186,13 @@ const Development = () => {
         <p className="descrip">
           In March, the College Park City Council voted 6-2 to buy two properties near the intersection of Knox Road and Route 1 in an effort to redevelop City Hall. The $1.6 million purchase of these properties, 7409 and 7411 Baltimore Ave., will displace current tenants Shanghai Cafe and Subway. Olson said City Hall will benefit from more office space and mixed-use redevelopment, and construction will not finish before 2020.
           <br /><br />
+          The city has received pushback from residents at this plan. At a November public hearing, many residents said the city should not take over the properties through the right of eminent domain.
+          <br /><br />
           Wojahn told The Diamondback in March that the city would help the businesses relocate when their leases expire in September 2019.
           <br /><br />
-          Smoothie King and Hair Cuttery — located at 7403 and 7405 Baltimore Ave., respectively — are in talks to be relocated as well, Ulman told The Diamondback in March.
-          <br /><br />
           “It’s not really anything that we particularly have to do,” Wojahn said, “but since we want to support local businesses, we are willing to work with them on reasonable relocation expenses.”
+          <br /><br />
+          Smoothie King and Hair Cuttery — located at 7403 and 7405 Baltimore Ave., respectively — are in talks to be relocated as well, Ulman told The Diamondback in March.
         </p>
 
 
@@ -209,6 +200,8 @@ const Development = () => {
           Koons Ford property demolished to make way for redevelopment
         </p>
         <p className="descrip">
+          The demolition paves the way for Cambria Hotel & Suites to open in 2018, which will feature the College Park Grill on its ground level. Grill owner Adam Greenberg described the restaurant in November 2017 as targeting residents, professors and businesspeople.
+          <br /><br />
           Greenberg, who also owns Potomac Pizza and Bagels ‘n Grinds, said “students are very welcome, but it will be above the usual price range of a usual student meal.”
           <br /><br />
           The hotel will also feature a parking garage, with live music in the restaurant every night.
@@ -258,7 +251,7 @@ const Development = () => {
           Bringing university faculty and staff to College Park
         </p>
         <p className="descrip">
-          At the site of the Quality Inn and Plato’s Diner — the latter of which was gutted by fire in April 2016 — on Route 1, there are plans to build hundreds of residential units, as well as retail space and parking. The city council voted in January to approve three agreements for the development, but Ulman said they’re still ironing out the details.
+          At the site of the Quality Inn and Plato’s Diner — the latter of which was gutted by fire in April 2016 — there are plans to build hundreds of residential units, as well as retail space and parking. The city council voted in January to approve three agreements for the Route 1 development, but Ulman said they’re still ironing out the details.
           <br /><br />
           Ulman said it’s designed to be “housing for faculty and staff who want to live closer to campus, but have great amenity options for students and non-students.”
           <br /><br />

@@ -18,6 +18,7 @@ import PublicSafety from './views/PublicSafety.jsx';
 import Education from './views/Education.jsx';
 import Transportation from './views/Transportation.jsx';
 import Sustainability from './views/Sustainability.jsx';
+import LakelandStory from './views/LakelandStory.jsx';
 
 export default class App extends React.Component {
   render() {
@@ -31,6 +32,7 @@ export default class App extends React.Component {
           <Education />
           <Transportation />
           <Sustainability />
+          <LakelandStory />
           <Footer />
         </React.Fragment>
       </BrowserRouter>

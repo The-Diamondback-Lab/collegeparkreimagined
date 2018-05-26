@@ -63,11 +63,11 @@ const Transportation = () => {
           <br /><br />
           Loh added that the Purple Line could lead to job growth. Montgomery County — where the Purple Line will have 10 stops — is one of 20 sites nationwide that were shortlisted for Amazon’s proposed second headquarters, HQ2. Amazon expects the project to come with as many as 50,000 jobs, and Loh said the Purple Line would help College Park reap those benefits.
           <br /><br />
-          “They’re expected to bring in 50,000 employees. Not all of them are going to be living in White Flint, Montgomery County,” he said. “Many of them will want to live in the College Park area, in Prince George’s County because the rents are cheaper, plus they’re next to a major university.”
+          “Not all of them are going to be living in White Flint, Montgomery County,” he said. “Many of them will want to live in the College Park area, in Prince George’s County because the rents are cheaper, plus they’re next to a major university.”
           <br /><br />
           Purple Line construction will reduce parking spots on the campus, Department of Transportation Services Executive Director David Allen told The Diamondback in March.
           <br /><br />
-          Lizandro Galvez, a rising sophomore aerospace engineering major, commutes to school by car, because if he took a bus he would have to leave his house two hours earlier. He said he didn’t think the Purple Line was a good idea because the light rail wouldn’t be convenient for students’ busy schedules and said adding more buses would be better than building mass transit.
+          Lizandro Galvez, a rising sophomore aerospace engineering major, commutes to school by car, because if he took a bus he would have to leave his house two hours earlier. He said he didn’t think the Purple Line was a good idea because the light rail wouldn’t be convenient for students’ busy schedules.
           <br /><br />
           “Some students might find it better [to take the light rail] but the majority of the time [students] have their own car or use their parents’,” Galvez said. “Even though it’s a cost to them, they have that liberty to come to and from school whenever they want.”
           <br /><br />

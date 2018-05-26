@@ -33,18 +33,20 @@ const PublicSafety = () => {
           Expanded UMD Student Code of Conduct throughout the City
         </p>
         <p className="descrip">
-          According to Andrea Goodwin, director of the Office of Student Conduct and a member of the public safety committee, the number of off-campus complaints involving students have approximately doubled since 2013 when the code expanded. She said most of the off-campus complaints are resolved quickly and generally entail noise violations, disorderly conduct or drug and alcohol abuse. She said the expansion has clarified the reporting process and helps students avoid contact with UMPD or PGCPD.
+          According to Andrea Goodwin, director of the Office of Student Conduct, the number of off-campus complaints involving students has roughly doubled since 2013, when the code expanded. Most of these complaints are resolved quickly and generally entail noise violations, disorderly conduct or drug and alcohol abuse, she said. The expansion has clarified the reporting process and helps students avoid contact with local law enforcement, she added.
           <br /> <br />
-          “Instead of students having to potentially stand in criminal court, it’s now being handled by the university,” she said. “They did that because it’s a blurred line between city and campus, and we’d rather work with our students and help them learn from their mistakes rather than punishing them.”
+          “Instead of students having to potentially stand in criminal court, it’s now being handled by the university,” Goodwin said. “It’s a blurred line between city and campus, and we’d rather work with our students and help them learn from their mistakes, rather than punishing them.”
           <br /> <br />
-          She said sanctions typically include an educational penalty or a discussion about how their behavior affects the community, and once the complaint resolves “we usually never see them again. For most, it is their first and last violation.”
+          Goodwin, who is also a member of the partnership’s public safety committee, said sanctions typically include an educational penalty or a discussion about how the behavior affects the community, and once the complaint is resolved “we usually never see them again.”
+          <br /><br />
+          “For most, it is their first and last violation,” she said.
         </p>
 
         <p className="p-heading">
           Expanded University Police jurisdiction to more of the city
         </p>
         <p className="descrip">
-          Eric Olson, the partnership’s executive director, said the police expansion brought them into areas where more students live, primarily in the downtown and Old Town areas but also as far up as Route 193 and Greenbelt. This was to enhance police presence in the midtown, Berwyn, Lakeland and Calvert Hills neighborhoods, which required hiring five more officers.
+          Eric Olson, the partnership’s executive director, said the police expansion brought them into areas where more students live, primarily in the downtown and Old Town areas but also as far up as Route 193 and Greenbelt. This was to enhance police presence in the midtown, Berwyn, Lakeland and Calvert Hills neighborhoods, which led to the hiring of five more officers.
           <br /> <br />
           Loh said increasing police presence was a major priority of his from the start. When the city did not agree to subsidize new hires, Loh decided the university would pay for them if they were given broader jurisdiction.
           <br /> <br />
@@ -52,7 +54,7 @@ const PublicSafety = () => {
           <br /> <br />
           With many Greek life members renting houses in Old Town, Anthony Busani, president of the university’s Interfraternity Council, said he and other board members have been meeting with city officials to “build better relationships” and “improve accountability on both ends.”
           <br /> <br />
-          But the rising senior marketing and supply chain management major said while he thinks opening lines of communication will be mutually beneficial in the long run, he thinks the city wastes resources by enforcing “ridiculous” code violations on students.
+          But the rising senior marketing and supply chain management major said while he thinks opening lines of communication will be mutually beneficial in the long run, he thinks the city wastes police resources by enforcing some “ridiculous” code violations on students.
         </p>
 
         <p className="p-heading">
@@ -73,7 +75,7 @@ const PublicSafety = () => {
 
         </p>
         <p className="descrip">
-          Olson helped pass legislation to enact the board during his time on the county council, although the legislation was put into effect after he departed the council in 2014. He said it helps to regulate matters of “particularly egregious damages to home properties” such as “renting out housing without the permits.”
+          Olson helped pass legislation to enact the board during his time on the county council, although the legislation was put into effect after he departed the job in 2014. He said it helps to regulate matters of “particularly egregious damages to home properties” such as “renting out housing without the permits.”
           <br /> <br />
           The board can also revoke rental licenses and distribute fines.
           <br /> <br />
@@ -117,7 +119,7 @@ const PublicSafety = () => {
         <p className="descrip">
           Long-term recommendations from the Police Foundation include creating a standalone police department for College Park to “allow for more flexible and more responsive staffing allocation decisions,” as well as a real-time crime-monitoring and data collection center.
           <br /> <br />
-          The study supported funding additional live camera monitoring services, and encouraged contracting or combining resources with another local police agency, though it acknowledged these may not be feasible.
+          The study supported funding additional live camera monitoring services and encouraged contracting or combining resources with another local police agency, though it acknowledged these suggestions may not be feasible.
         </p>
 
         <p className="p-heading">

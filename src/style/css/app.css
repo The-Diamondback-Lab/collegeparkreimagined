@@ -204,11 +204,45 @@ footer {
       width: 22.5px !important; }
 
 /* GALLERY STYLES - GALLERY.SASS */
-.galleria {
-  background-color: #000;
-  height: 400px;
-  max-width: 700px;
-  width: 700px; }
+#gallery {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 3em 0; }
+  #gallery .galleria {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #000;
+    height: 400px;
+    width: 100%; }
+  #gallery figcaption {
+    font-family: "Nevis";
+    margin: .5em 0 0 0; }
 
 /* BEGIN VIEW SPECIFIC STYLES -- VIEWS-DIR.SASS */
 /* LANDING PAGE STYLES - LANDING.SASS */
@@ -296,24 +330,3 @@ footer {
       width: 100%; }
   #mainstory #mainstory-wrapper p:last-of-type img {
     width: auto; }
-  #mainstory #mainstory-wrapper #gallery, #mainstory #mainstory-wrapper figure {
-    margin: 3em 0; }
-  #mainstory #mainstory-wrapper figure {
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
-    display: flex !important;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-    #mainstory #mainstory-wrapper figure figcaption {
-      font-family: "Nevis";
-      margin: .5em 0 0 0; }
