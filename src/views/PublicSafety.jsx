@@ -66,8 +66,6 @@ const PublicSafety = () => {
           He added that while University Police have access to all the cameras, they are not all actively monitored. The Police Foundation assessment further found that “requests for review averaged about 450 per year with usable video becoming available about half the time and an average of approximately 27 arrests per year.”
           <br /> <br />
           Olson said they plan to adjust the camera plan based on the results of the study.
-          <br /> <br />
-          A commitment to adjusting the camera plan and strategy based on the results of the study is included in the 2018 work plan.
         </p>
 
         <p className="p-heading">

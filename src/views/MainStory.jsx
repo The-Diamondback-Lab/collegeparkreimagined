@@ -31,12 +31,7 @@ export default class MainStory extends React.Component {
             forgotten,” the rising senior government and politics major said. “People
             barely remember that there’s a high school down the street.”
             <br /> <br />
-            But Nolasco, a current College Park resident, has recently noticed a
-            marked difference in the relationship between the state’s flagship
-            university and the surrounding municipalities — and it gives her
-            hope. For instance, the university’s commitment to bettering the
-            local education system has made seem like less of a “bubble,” she
-            said.
+            But Nolasco, a current College Park resident, has recently noticed a marked difference in the relationship between the state’s flagship university and the surrounding municipalities — and it gives her hope. For instance, the university’s commitment to bettering the local education system has made seem like less of a “bubble,” she said.
             <br /> <br />
             “I care about the development,” she said. “This is a resource people
             need.”
@@ -136,11 +131,9 @@ export default class MainStory extends React.Component {
             diverse.
             <br /> <br />
             “I’ve heard people say the rent is getting higher,” she said. “You
-            see people moving out.” But Blaik said for a place like College
-            Park, “gentrification is much more a perceived threat rather than an
-            actual one.” In his previous role as a senior vice president at the
-            University of Pennsylvania, Blaik helped lead a similar
-            transformation in Philadelphia.
+            see people moving out.”
+            <br/><br/>
+            But Blaik said for a place like College Park, “gentrification is much more a perceived threat rather than an actual one.” In his previous role as a senior vice president at the University of Pennsylvania, Blaik helped lead a similar transformation in Philadelphia.
             <br /> <br />
             “The minority of housing in Old Town are owner-occupied,” he said.
             “Little displacement occurs because there’s a limited renter market
@@ -199,8 +192,7 @@ export default class MainStory extends React.Component {
             <br /> <br />
             “They say they’re helping students by developing, but I don’t think
             that can be true if you don’t fully incorporate students into the
-            leadership,” said Pruitt, a senior economics and government and
-            politics major.
+            leadership."
             <br /> <br />
             And while the partnership has exceeded the expectations of many
             involved, leaders admit much of the work lies ahead.

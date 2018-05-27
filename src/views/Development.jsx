@@ -12,7 +12,7 @@ const Development = () => {
     <section className="section" id="housing-and-development">
       <div className="wrapper" id="housingdevwrapper">
 
-        <LeadImage image={development} text={'Vigilante Coffee opened on Baltimore Avenue in March. It replaces #1 Liquors.'} />
+        <LeadImage image={development} text={'Vigilante Coffee opened on Baltimore Avenue in March. It replaces #1 Liquors. (Photo by Tom Hausman/The Diamondback)'} />
 
         <h1>Development</h1>
         <h3 className="first-line">
@@ -77,7 +77,7 @@ const Development = () => {
           The program awards $15,000 in deferred-payment, forgivable loans for
           university or city employees to use on their down payments and closing
           costs . The loan requires recipients to live within the city limits of
-          College Park for ten years, or otherwise repay the loan.
+          College Park for 10 years, or otherwise repay the loan.
           <br /><br />
           Olson said that so far, the program has attracted 36 new home buyers.
           He also said the program enables staffers to spend more time in the
@@ -105,7 +105,7 @@ const Development = () => {
           <span>Major student housing/mixed use projects</span>
           <br /><br />
           Olson said the partnership worked with investors and gave them
-          confidence to build the University View The Enclave, Terrapin Rowand
+          confidence to build the University View, The Enclave, Terrapin Rowand
           other student housing complexes.
           <br /><br />
           The Enclave will begin filling its empty retail space in the coming
@@ -144,36 +144,6 @@ const Development = () => {
           <br /><br />
           Leaders of the partnership have also expressed a desire to provide
           more graduate student housing in the coming years.
-        </p>
-
-        <p className="p-heading">
-          Major student housing/mixed-use projects
-        </p>
-        <p className="descrip">
-          Olson said the partnership worked with investors and gave them confidence to build the University View, The Enclave, Terrapin Row and other student housing complexes.
-          <br /><br />
-          The Enclave will begin filling its empty retail space in the coming months with a new sushi restaurant named LaTAO. Ryan Chelton, College Park’s economic development coordinator, said in February that he hopes the opening of LaTAO will cause a “chain reaction” and “draw in more retail.”
-          <br /><br />
-          A recent housing market survey by this university’s Department of Resident Life showed despite all the new apartment buildings springing up in the city, most underclassmen at this university still live on the campus.
-          <br /><br />
-          “Something continually advocated for by students is more affordable housing options,” said AJ Pruitt, this university’s Student Government Association president for 2017-18. “That’s something that has been somewhat left behind.”
-        </p>
-
-        <p className="p-heading">
-          Opening of mixed-use housing project for professionals
-        </p>
-        <p className="descrip">
-          Olson said Domain, which opened in June 2013, was primarily built to serve young professionals. When constructed, Domain was the first non-student apartment complex built in the city since 2007. In its first year open, The Diamondback reported that most Domain residents were professionals who didn’t have any connection to the university.
-          <br /><br />
-          Rent for Domain starts at $1,686/month for a one-bedroom, one-bathroom unit, according to its website.
-          <br /><br />
-          But some College Park residents said they have never considered Domain as a legitimate option.
-          <br /><br />
-          “Something continually advocated for by students is more affordable housing options,” said AJ Pruitt, this university’s Student Government Association president for 2017-18. “That’s something that has been somewhat left behind.”
-          <br /><br />
-          “I was just floored when I saw what it was going to cost. For a family with a couple young kids, there was no way in the world that was something we could consider,” said resident Jennifer Haislip.
-          <br /><br />
-          Leaders of the partnership have also expressed a desire to provide more graduate student housing in the coming years.
         </p>
 
         <h3 className="list-heading">
