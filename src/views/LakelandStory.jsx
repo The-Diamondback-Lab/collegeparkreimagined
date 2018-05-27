@@ -66,7 +66,7 @@ const LakelandStory = () => {
           <br /><br />
           Still, Macknis said the city’s efforts are misguided.
           <br /><br />
-          “Other people who had come to College Park maybe 10 to 15 years ago, they come into College Park now and they say ‘It’s ridiculous,’” she said. “For some reason, the mayor is so focused on downtown and the university, I don’t think he can see the forest for the trees.”
+          “Other people who had come to College Park maybe 10 to 15 years ago, they come into College Park now and they say ‘It’s ridiculous,’” she said. “For some reason, the mayor is so focused on downtown and the university, I don’t think he can see the forest from the trees.”
         </p>
       </div>
     </section>
