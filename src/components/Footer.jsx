@@ -1,6 +1,9 @@
 //react
 import * as React from 'react';
 
+//icon
+import Ionicon from 'react-ionicons';
+
 //dbk svg import
 import dbk from '../assets/img/dbk.svg';
 
@@ -57,6 +60,11 @@ const Footer = () => {
             target="_blank"
           >
             <img src={dbk} alt="" />
+          </a>
+          <a className='donate' href="http://www.dbknews.com/donate/" rel="noopener noreferrer"
+            target="_blank">
+            <Ionicon icon='md-heart' color='white' />
+            <p>Support DBK</p>
           </a>
           <div className="addthis_sharing_toolbox" id="add-this" />
         </div>
