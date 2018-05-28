@@ -11,12 +11,11 @@ const Footer = () => {
   return (
     <footer>
       <div className="wrapper" id="footer-wrapper">
-
         <div className="credits">
           <h3 className="credits-heading">Credits</h3>
           <div className="credits-list-container">
             <ul>
-              Reports
+              Reporters
               <li>Hallie Miller</li>
               <li>Lindsey Feingold</li>
               <li>Audrey Decker</li>
@@ -54,24 +53,28 @@ const Footer = () => {
         </div>
 
         <div className="footer-main">
-          <a className='logo'
+          <a
+            className="logo"
             href="http://www.dbknews.com/"
             rel="noopener noreferrer"
             target="_blank"
           >
             <img src={dbk} alt="" />
           </a>
-          <a className='donate' href="http://www.dbknews.com/donate/" rel="noopener noreferrer"
-            target="_blank">
-            <Ionicon icon='md-heart' color='white' />
+          <a
+            className="donate"
+            href="http://www.dbknews.com/donate/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <Ionicon icon="md-heart" color="white" />
             <p>Support DBK</p>
           </a>
           <div className="addthis_sharing_toolbox" id="add-this" />
         </div>
-
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;
