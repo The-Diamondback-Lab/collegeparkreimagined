@@ -95,9 +95,9 @@ const LakelandStory = () => {
           Other College Park residents outside Lakeland echo Gross' concerns.
           <br />
           <br />
-          Kerry Snow, a longtime North College Park resident, said
-          servicesthings such as parking and code enforcement have languished in
-          recent years at the expense of the partnership’s vision.
+          Kerry Snow, a longtime North College Park resident, said services such
+          as parking and code enforcement have languished in recent years at the
+          expense of the partnership’s vision.
           <br />
           <br />
           “There are some things that I think may be suffering because the city

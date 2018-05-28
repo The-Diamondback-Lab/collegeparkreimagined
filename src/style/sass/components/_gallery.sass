@@ -2,16 +2,24 @@
 
 #gallery
   +flex(column, center, center)
-  margin: 3em 0
+  background-color: $white
+  margin: 2em 0
+  width: 100vw
   
-
   .galleria
-    +flex(column, center, center)
-    background-color: $black
-    height: 400px
-    width: 100%
+    +flex(row, center, space-evenly)
+    width: 90%
+
+    .slick-list
+      flex: 2
+
+      .slick-track
+        .slick-slide
+           img
+             width: 100%
 
   figcaption
     font-family: $font-heading
-    margin: .5em 0 0 0
+    margin: 1em 0 0 0
     text-align: center
+    width: 85%

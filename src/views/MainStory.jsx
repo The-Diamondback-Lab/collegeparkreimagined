@@ -28,10 +28,15 @@ export default class MainStory extends React.Component {
             university.
             <br /> <br />
             “You don’t have to go five minutes down the road to see what’s been
-            forgotten,” the rising senior government and politics major said. “People
-            barely remember that there’s a high school down the street.”
+            forgotten,” the rising senior government and politics major said.
+            “People barely remember that there’s a high school down the street.”
             <br /> <br />
-            But Nolasco, a current College Park resident, has recently noticed a marked difference in the relationship between the state’s flagship university and the surrounding municipalities — and it gives her hope. For instance, the university’s commitment to bettering the local education system has made seem like less of a “bubble,” she said.
+            But Nolasco, a current College Park resident, has recently noticed a
+            marked difference in the relationship between the state’s flagship
+            university and the surrounding municipalities — and it gives her
+            hope. For instance, the university’s commitment to bettering the
+            local education system has made seem like less of a “bubble,” she
+            said.
             <br /> <br />
             “I care about the development,” she said. “This is a resource people
             need.”
@@ -71,10 +76,11 @@ export default class MainStory extends React.Component {
             administrators, state delegates and other local stakeholders.
             <br />
             <img
+              id="diversity"
               src={diversity}
               alt="the board is comprised of all white men and one black woman"
             />
-            <br /><br />
+            <br />
             The committees do not implement changes; they lack individual
             budgets and the authority to distribute funds, levy taxes or
             allocate resources as desired. Rather, committees join forces to
@@ -100,8 +106,8 @@ export default class MainStory extends React.Component {
             <br /> <br />
             Leaders of the partnership attribute much of the area’s rapid growth
             and revitalization in the years since to the appointment of
-            University of Maryland President Wallace D. Loh, who assumed the
-            role in 2010.
+            University of Maryland President Wallace Loh, who assumed the role
+            in 2010.
             <br /> <br />
             Maryland Sen. James Rosapepe (D-Prince George’s & Anne Arundel),
             chair of the partnership’s board of directors, said Loh’s support of
@@ -122,9 +128,17 @@ export default class MainStory extends React.Component {
             solve the problem right now, but you think about its implication 20
             to 30 years down the line.”
             <br /> <br />
-            Critics of the partnership have posed that the focus on the future and the lack of student and permanent resident presence on the board and committees has excluded those voices from the conversation, often to their detriment.
-            <br/><br/>
-            Twice in the past year, The Diamondback’s editorial board has taken the city council to task for its City Hall expansion plans, which would “take a chunk out of Route 1.” At a public hearing last fall, several residents spoke out against those expansion plans, with one deeming them a “vanity project.”
+            Critics of the partnership have posed that the focus on the future
+            and the lack of student and permanent resident presence on the board
+            and committees has excluded those voices from the conversation,
+            often to their detriment.
+            <br />
+            <br />
+            Twice in the past year, The Diamondback’s editorial board has taken
+            the city council to task for its City Hall expansion plans, which
+            would “take a chunk out of Route 1.” At a public hearing last fall,
+            several residents spoke out against those expansion plans, with one
+            deeming them a “vanity project.”
             <br /> <br />
             Nolasco said Hyattsville, home to a newly constructed arts district,
             “used to be very black and brown” but has recently become less
@@ -132,8 +146,13 @@ export default class MainStory extends React.Component {
             <br /> <br />
             “I’ve heard people say the rent is getting higher,” she said. “You
             see people moving out.”
-            <br/><br/>
-            But Blaik said for a place like College Park, “gentrification is much more a perceived threat rather than an actual one.” In his previous role as a senior vice president at the University of Pennsylvania, Blaik helped lead a similar transformation in Philadelphia.
+            <br />
+            <br />
+            But Blaik said for a place like College Park, “gentrification is
+            much more a perceived threat rather than an actual one.” In his
+            previous role as a senior vice president at the University of
+            Pennsylvania, Blaik helped lead a similar transformation in
+            Philadelphia.
             <br /> <br />
             “The minority of housing in Old Town are owner-occupied,” he said.
             “Little displacement occurs because there’s a limited renter market
@@ -171,9 +190,16 @@ export default class MainStory extends React.Component {
             full-time employees.”
             <br />
             <br />
-            Parris Glendening, Maryland’s governor when the partnership was created, said the university “would not have survived” had it not embraced change. He noted that elected officials from Sacramento had toured the College Park area in April, hoping to examine the region’s development.
-            <br/><br/>
-            “They’re studying us and trying to figure out how we are doing it,” he said. “I think our little university becoming a national model is pretty exciting.”
+            Parris Glendening, Maryland’s governor when the partnership was
+            created, said the university “would not have survived” had it not
+            embraced change. He noted that elected officials from Sacramento had
+            toured the College Park area in April, hoping to examine the
+            region’s development.
+            <br />
+            <br />
+            “They’re studying us and trying to figure out how we are doing it,”
+            he said. “I think our little university becoming a national model is
+            pretty exciting.”
             <br />
             <br />
             But meanwhile, some longtime residents have expressed fear that
@@ -202,19 +228,21 @@ export default class MainStory extends React.Component {
             University District Vision 2020 document. “It was designed to
             address the long-standing challenges of the divide [between the city
             and this university]. We’ve succeeded in that respect.”
-            <br /><br />
-            Below, we examine more of the partnership’s achievements and goals as well as the criticisms.
+            <br />
+            <br />
+            Below, we examine more of the partnership’s achievements and goals
+            as well as the criticisms.
           </p>
           <img
-              src={committee}
-              alt="Each committee contains at least one
+            id="committee"
+            src={committee}
+            alt="Each committee contains at least one
                   committee chair (such as the mayor, a state delegate, or a former
                   mayor), one partnership board member (often an experienced lawmaker
                   or consultant), two city council members, two university
                   administrators, at least one county council member, and one state
                   legislator."
-            />
-          
+          />
         </div>
       </section>
     );

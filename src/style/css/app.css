@@ -106,7 +106,7 @@ nav {
     nav a svg {
       stroke: #FFF;
       stroke-width: 2; }
-  @media all and (max-width: 565px) {
+  @media all and (max-width: 1085px) {
     nav {
       display: -webkit-box !important;
       display: -ms-flexbox !important;
@@ -309,30 +309,37 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 3em 0; }
+  background-color: #FFF;
+  margin: 2em 0;
+  width: 100vw; }
   #gallery .galleria {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background-color: #000;
-    height: 400px;
-    width: 100%; }
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 90%; }
+    #gallery .galleria .slick-list {
+      -webkit-box-flex: 2;
+          -ms-flex: 2;
+              flex: 2; }
+      #gallery .galleria .slick-list .slick-track .slick-slide img {
+        width: 100%; }
   #gallery figcaption {
     font-family: "Nevis";
-    margin: .5em 0 0 0;
-    text-align: center; }
+    margin: 1em 0 0 0;
+    text-align: center;
+    width: 85%; }
 
 /* BEGIN VIEW SPECIFIC STYLES -- VIEWS-DIR.SASS */
 /* LANDING PAGE STYLES - LANDING.SASS */
@@ -414,10 +421,17 @@ footer {
         -ms-flex-pack: center;
             justify-content: center;
     font-size: 1.05em;
-    line-height: 1.5em; }
-    #mainstory #mainstory-wrapper p img {
+    line-height: 1.5em;
+    margin: 0; }
+    #mainstory #mainstory-wrapper p #diversity {
       margin: 3em 0 0;
       width: 100%; }
-  #mainstory #mainstory-wrapper img {
+      @media all and (max-width: 700px) {
+        #mainstory #mainstory-wrapper p #diversity {
+          display: none; } }
+  #mainstory #mainstory-wrapper #committee {
     margin: 3em 0;
     width: 100%; }
+    @media all and (max-width: 700px) {
+      #mainstory #mainstory-wrapper #committee {
+        display: none; } }

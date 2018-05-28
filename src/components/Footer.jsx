@@ -21,11 +21,11 @@ const Footer = () => {
               <li>Audrey Decker</li>
               <li>Brooks DuBose</li>
               <li>Christine Condon</li>
+              <li>Leah Brennan</li>
             </ul>
             <ul>
               Copy Editors
               <li>Ryan Romano</li>
-              <li>Leah Brennan</li>
               <li>Jillian Atelsek</li>
               <li>Arya Hodjat</li>
               <li>Rebecca Stryer</li>

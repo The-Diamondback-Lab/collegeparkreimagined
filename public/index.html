@@ -22,20 +22,13 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
 
-
   <!-- vendors -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/galleria.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
+    crossorigin="anonymous"></script>
 
-  <script>
-    (function () {
-      setTimeout(function () {
-        Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js');
-        Galleria.run('.galleria');
-      }, 5000);
-    }());
-  </script>
 
   <title>College Park Re-Imagined</title>
 </head>
@@ -57,8 +50,27 @@
       -->
   </div>
 
-  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5717173eb7cb7c19"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
+  <script>
+    $(document).ready(function () {
+      $('.galleria').slick({
+        lazyLoad: 'progressive',
+        arrows: true,
+        prevArrow: '<button type="button" class= "slick-next"><i class="fas fa-chevron-left"></i></button>',
+        nextArrow: '<button type="button" class= "slick-next"><i class="fas fa-chevron-right"></i></button>',
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        speed: 200,
+        fade: true,
+        cssEase: 'linear',
+        swipeToSlide: true,
+      });
+    });
+  </script>
+
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5717173eb7cb7c19"></script>
 </body>
 
 </html>
