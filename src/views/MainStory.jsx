@@ -7,7 +7,7 @@ import Gallery from '../components/Gallery.jsx';
 
 //images
 //import cpovertime from '../assets/img/cpovertime.gif';
-import diversity from '../assets/img/diversity.jpg';
+import diversity from '../assets/img/diversity.png';
 import committee from '../assets/img/committee.jpg';
 
 export default class MainStory extends React.Component {
