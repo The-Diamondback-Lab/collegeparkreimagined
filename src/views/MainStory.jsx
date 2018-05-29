@@ -35,7 +35,7 @@ export default class MainStory extends React.Component {
             marked difference in the relationship between the state’s flagship
             university and the surrounding municipalities — and it gives her
             hope. For instance, the university’s commitment to bettering the
-            local education system has made seem like less of a “bubble,” she
+            local education system has made it seem like less of a “bubble,” she
             said.
             <br /> <br />
             “I care about the development,” she said. “This is a resource people
