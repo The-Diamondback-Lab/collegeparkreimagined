@@ -112,7 +112,7 @@ const Sustainability = () => {
           provides pet waste pickup stations in parks and along trails.
           <br />
           <br />
-          College Park has been member of Tree City USA, a program recognizes
+          College Park has been member of Tree City USA, a program recognizing
           cities that promote healthy tree management, for more than two
           decades. This university is part of Tree Campus USA, a similar program
           for colleges and universities. As of 2016, more than 26 percent of the
@@ -145,11 +145,10 @@ const Sustainability = () => {
           The last forum was in 2016, and about 20 to 30 people signed up for
           solar energy at the meeting.
           <br /> <br />
-          Solar energy options for city residents include joining a co-op (where
-          a group of people share the cost together), purchasing individual
-          solar panels and forming a power purchase agreement with a contractor
-          (where the homeowner signs a lease for the contractor to buy, install
-          and maintain the panels).
+          Solar energy options for city residents include joining a co-op where
+          a group of people share the cost together, purchasing individual
+          solar panels or forming a power purchase agreement with a contractor where the homeowner signs a lease for the contractor to buy, install
+          and maintain the panels.
           <br />
           <br />
           “We’d like to do another one soon, maybe another one later this summer
@@ -225,13 +224,8 @@ const Sustainability = () => {
           Recycling Rates and County “Rain Check” Program
         </p>
         <p className="descrip">
-          Assist the City and County with increasing recycling rates as well as
-          homeowner participation in the County “Rain Check” program to install
-          environmental site design and rain barrels at homes in the City of
-          College Park. Partnership promoting.
-          <br /> <br />
           As of a few months ago, 22 people in College Park had applied for the
-          rain check rebate - a financial incentive program, which “provides
+          rain check rebate — a financial incentive program, which “provides
           eligible applicants the opportunity to receive a reimbursement for
           installing approved stormwater management practices,” according to the
           Chesapeake Bay Trust website.
@@ -256,11 +250,7 @@ const Sustainability = () => {
 
         <p className="p-heading">Clean Energy</p>
         <p className="descrip">
-          The city currently purchases 100 percent renewable energy off-site
-          from a regional contractor. On-site, it currently produces 10 percent
-          of clean energy using the solar panels recently installed. The city is
-          on track to meet the goal of producing 20 percent of municipal energy
-          needs from on-site renewable energy by 2020.
+The city currently produces clean energy from on and off-site sources. On-site, the city has solar panels, accounting for 10 percent of the city's overall power. Off-site, the city purchases its power — which is fully renewable — from a regional contractor. The city is on track to meet the goal of producing 20 percent of its energy needs from on-site renewable energy by 2020, Beavers wrote in an email.
           <br /> <br />
           “The challenge is that electricity is being purchased by individual
           account holders, every single household and business in College Park,”
@@ -352,9 +342,7 @@ const Sustainability = () => {
           status and three without it.
           <br />
           <br />
-          The William S. Schmidt Outdoor Education Center partnered with the
-          city with the goal of having every school serving College Park
-          students become a green school. The William S. Schmidt Outdoor
+          The William S. Schmidt Outdoor Education Center, an organization providing resources for schools to become more environmentally friendly, partnered with the city with the goal of having every school serving College Park students become a green school. The William S. Schmidt Outdoor
           Education Center, an organization providing resources for schools to
           become more environmentally friendly, partnered with the city with the
           goal of having every school serving College Park students become a
@@ -363,7 +351,7 @@ const Sustainability = () => {
           <br />
           “This may include developing course credit, adding projects to the
           DoGood Challenge on campus, working with a UMD Honors team or UMD
-          Scholars project,” according to the document.
+          Scholars project,” according to the sustainability committee's meeting minutes from May 2018.
           <br />
           <br />
           “We haven’t tried writing a paragraph saying what we are doing, but I

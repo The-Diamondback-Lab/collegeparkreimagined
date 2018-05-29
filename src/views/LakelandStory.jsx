@@ -104,8 +104,7 @@ const LakelandStory = () => {
           <br />
           <br />
           “There are some things that I think may be suffering because the city
-          is trying to do so much with downtown,” said Snow, a three-time
-          graduate of this university. “A lot of my neighbors complain about
+          is trying to do so much with downtown,” said Snow. “A lot of my neighbors complain about
           houses that are abandoned … and look like they’re going to crash to
           the ground.”
           <br />

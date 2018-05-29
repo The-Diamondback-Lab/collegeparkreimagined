@@ -49,6 +49,9 @@ const Development = () => {
 
         <p className="p-heading">The Hotel at the University of Maryland</p>
         <p className="descrip">
+          The Hotel created more than 400 permanent jobs, which Ken Ulman, the University of Maryland College Park Foundation’s chief strategy officer for economic development, said would help increase the city’s tax base.
+          <br />
+          <br />
           The $180 million project, which opened in September 2017, functions as
           a mixed-use building. The city’s only four-star hotel, it offers
           conference facilities, a bar and “high-end” restaurants such as Old
@@ -96,7 +99,7 @@ const Development = () => {
           credit for donors who support MilkBoy programming.
           <br />
           <br />
-          John Hedrick, a rising senior, said while Milkboy Arthouse stands out
+          John Hedrick, a rising senior, said while MilkBoy ArtHouse stands out
           in College Park as a “really cool” venue that’s unique to the area,
           not all undergraduate students can take full advantage of it.
           <br />
@@ -177,18 +180,17 @@ const Development = () => {
           <br />
           <br />
           Olson said Domain, which opened in June 2013, was primarily built to
-          serve young professionals. When constructed, the Domain was the first
+          serve young professionals. When constructed, Domain was the first
           non-student apartment complex built in the city since 2007. In its
           first year open, The Diamondback reported that most Domain residents
           were professionals who didn’t have any connection to the university.
           <br />
           <br />
-          Rent for the Domain starts at $1,686/month for a one-bedroom,
+          Rent for Domain starts at $1,686/month for a one-bedroom,
           one-bathroom unit, according to its website.
           <br />
           <br />
-          But some College Park residents said they have never considered the
-          Domain as a legitimate option.
+          But some College Park residents said they have never considered Domain as a legitimate option.
           <br />
           <br />
           “I was just floored when I saw what it was going to cost. For a family
@@ -249,7 +251,7 @@ const Development = () => {
           of a usual student meal.”
           <br />
           <br />
-          The hotel will also feature a parking garage, with live music in the
+          The hotel will also feature a parking garage and live music in the
           restaurant every night.
         </p>
 

@@ -159,7 +159,7 @@ export default class MainStory extends React.Component {
             for long-term residents.”
             <br /> <br />
             Loh acknowledged the “economic consequences” of redevelopment,
-            noting that this university— together with leaders from Prince
+            noting that this university — together with leaders from Prince
             George’s and Montgomery county governments — signed a commitment to
             protect low-income communities and individuals from displacement and
             “getting priced out.” It promises to “identify and address the

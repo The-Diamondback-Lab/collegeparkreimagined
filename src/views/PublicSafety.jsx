@@ -42,7 +42,7 @@ const PublicSafety = () => {
           Expanded UMD Student Code of Conduct throughout the City
         </p>
         <p className="descrip">
-          According to Andrea Goodwin, director of the Office of Student
+          According to Andrea Goodwin, director of this university's Office of Student
           Conduct, the number of off-campus complaints involving students has
           roughly doubled since 2013, when the code expanded. Most of these
           complaints are resolved quickly and generally entail noise violations,
@@ -81,7 +81,7 @@ const PublicSafety = () => {
           decided the university would pay for them if they were given broader
           jurisdiction.
           <br /> <br />
-          “And over the past seven years, crime in College Park has steadily
+          “And over the past seven years, crime in College Park has [been] steadily
           going down,” Loh said. “The numbers are there.”
           <br /> <br />
           With many Greek life members renting houses in Old Town, Anthony
@@ -93,7 +93,7 @@ const PublicSafety = () => {
           But the rising senior marketing and supply chain management major said
           while he thinks opening lines of communication will be mutually
           beneficial in the long run, he thinks the city wastes police resources
-          by enforcing some “ridiculous” code violations on students.
+          by enforcing some “ridiculous” code violations on students such as those involving noise levels and trash.
         </p>
 
         <p className="p-heading">Implemented public safety cameras</p>

@@ -180,7 +180,7 @@ const Transportation = () => {
           semester for the services.
           <br />
           <br />
-          DOTS Executive Director said an about $700,000 deficit would force the
+          DOTS Executive Director David Allen said an about $700,000 deficit would force the
           department to adjust several bus routes, including eliminating the
           weekend bus to the College Park Metro station and decreasing bus
           circulation to and from Courtyards.
@@ -194,7 +194,7 @@ const Transportation = () => {
         <p className="p-heading">Expanded MARC Service on the Camden Line</p>
         <p className="descrip">
           In 2015, three trains were added to the Camden Line, which connects
-          D.C. to Baltimore and stops in College Park.
+          Washington, D.C. to Baltimore and stops in College Park.
           <br /> <br />
           The partnership “helped orchestrate media events” promoting the
           expansion, according to its website.
@@ -277,7 +277,7 @@ const Transportation = () => {
           The campus has seen scores of parking spaces disappear over the past
           several years due to other construction projects. About 200 spots near
           the Jeong H. Kim Engineering building were removed in 2015, and
-          another 400 went away due to construction of the Brendan Iribe Center
+          another 400 were taken away due to construction of the Brendan Iribe Center
           for Computer Science and Innovation.
         </p>
 
