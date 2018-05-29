@@ -159,6 +159,9 @@ nav {
   .section .wrapper .p-heading {
     font-family: "Nevis";
     margin: 2em 0 0; }
+  .section .wrapper .p-heading-less {
+    font-family: "Nevis";
+    margin: 0 0 0; }
   .section .wrapper .descrip {
     margin: 1em 0; }
     .section .wrapper .descrip span {

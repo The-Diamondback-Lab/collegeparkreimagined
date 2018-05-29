@@ -10,14 +10,17 @@ const LakelandStory = () => {
   return (
     <section className="section" id="lakeland">
       <div className="wrapper" id="lakeland-wrapper">
-        <LeadImage image={lakeland} text={''} />
+        <LeadImage image={lakeland} text={'Lakeland community residents gather. (Photo courtesy of Lakeland Community Heritage Project)'} />
 
         <h1 className="first-line">'It’s quietly dying’</h1>
 
-        <p className="p-heading">
+
+        <p className="p-heading-less">
           A new cycle of redevelopment could threaten Lakeland and other
           historic College Park neighborhoods
         </p>
+
+        <br />
 
         <p>
           A short walk from the University of Maryland campus, still within
