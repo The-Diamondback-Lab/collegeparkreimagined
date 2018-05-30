@@ -26,7 +26,7 @@ const Education = () => {
           hand-in-hand.
         </h3>
         <p>
-          After his first meeting with U3 Advisors CEO Omar Blaik, Loh realized
+          After his first meeting with current U3 Advisors CEO Omar Blaik, Loh realized
           the university would attract more families and professionals to the
           area if it worked to make the local schools more competitive relative
           to the rest of the state. As a first step, this university — in

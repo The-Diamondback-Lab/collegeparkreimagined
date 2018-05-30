@@ -44,7 +44,7 @@ const Sustainability = () => {
           Glaser said both this university and College Park “are doing exactly
           what they should be doing” when it comes to sustainable initiatives.
           Yet former College Park Mayor Andrew Fellows, who was also the past
-          chair of the city’s sustainability committee, said that environmental
+          chair of the partnership's sustainability committee, said that environmental
           endeavors were not the original priority of the Vision 2020 plan.
           <br />
           <br />
@@ -250,7 +250,7 @@ const Sustainability = () => {
 
         <p className="p-heading">Clean Energy</p>
         <p className="descrip">
-The city currently produces clean energy from on and off-site sources. On-site, the city has solar panels, accounting for 10 percent of the city's overall power. Off-site, the city purchases its power — which is fully renewable — from a regional contractor. The city is on track to meet the goal of producing 20 percent of its energy needs from on-site renewable energy by 2020, Beavers wrote in an email.
+The city currently produces clean energy from on- and off-site sources. On-site, the city has solar panels, accounting for 10 percent of the city's overall power. Off-site, the city purchases its power — which is fully renewable — from a regional contractor. The city is on track to meet the goal of producing 20 percent of its energy needs from on-site renewable energy by 2020, Beavers wrote in an email.
           <br /> <br />
           “The challenge is that electricity is being purchased by individual
           account holders, every single household and business in College Park,”
@@ -261,7 +261,7 @@ The city currently produces clean energy from on and off-site sources. On-site, 
           individual won’t have to take action.”
           <br />
           <br />
-          Stewart, who is also one of the co-chairs of the city’s sustainability
+          Stewart, who is also one of the co-chairs of the partnership's sustainability
           committee, said a possible way to increase renewable energy on-site is
           to create a large-scale renewable energy project on or off-site. This
           would generate electricity itself and help to offset non-renewable
@@ -342,11 +342,7 @@ The city currently produces clean energy from on and off-site sources. On-site, 
           status and three without it.
           <br />
           <br />
-          The William S. Schmidt Outdoor Education Center, an organization providing resources for schools to become more environmentally friendly, partnered with the city with the goal of having every school serving College Park students become a green school. The William S. Schmidt Outdoor
-          Education Center, an organization providing resources for schools to
-          become more environmentally friendly, partnered with the city with the
-          goal of having every school serving College Park students become a
-          green school.
+          The William S. Schmidt Outdoor Education Center, an organization providing resources for schools to become more environmentally friendly, partnered with the city with the goal of having every school serving College Park students become a green school.
           <br />
           <br />
           “This may include developing course credit, adding projects to the

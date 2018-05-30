@@ -194,7 +194,7 @@ const Transportation = () => {
         <p className="p-heading">Expanded MARC Service on the Camden Line</p>
         <p className="descrip">
           In 2015, three trains were added to the Camden Line, which connects
-          Washington, D.C. to Baltimore and stops in College Park.
+          Washington, D.C., to Baltimore and stops in College Park.
           <br /> <br />
           The partnership “helped orchestrate media events” promoting the
           expansion, according to its website.
